@@ -33,7 +33,7 @@ Through loans many people can pursue their future education or buy a home, car, 
 
 #### Exploratory Data Analysis (EDA)
 
-- The following are the raw features and their descriptions
+- The following are the raw features and their descriptions<br/>
 LoanStatNew| Description
 ------------------- |------------
 loan_amnt |The listed amount of the loan applied for by t...
@@ -126,7 +126,7 @@ int_rate               |-0.082583
 
 ### Best Model
 - Our Best models for now:
-- **Densely connected Neural Network(DNN)** with Bayesian optimization
+- **Densely connected Neural Network(DNN)** with Bayesian optimization<br/>
  |precision |   recall | f1-score  | support
  |----------|----------|-----------|---------
  0   |    0.47  |    0.93  |    0.62  |    3925
@@ -144,7 +144,7 @@ weighted avg    |   0.94   |   0.89     | 0.90   |  39522
 ![Baseline Confusion Matrix](/reports/figures/graphs/png/_confusion_matrix.png)
 
 
-- **Densely connected Neural Network(DNN)** with hand tuning Hyperparameters
+- **Densely connected Neural Network(DNN)** with hand tuning Hyperparameters<br/>
  |precision |   recall | f1-score  | support
  |----------|----------|-----------|---------
  0   |    0.43  |    1.00  |    0.62  |    3364
