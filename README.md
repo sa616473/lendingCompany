@@ -33,7 +33,9 @@ Through loans many people can pursue their future education or buy a home, car, 
 
 #### Exploratory Data Analysis (EDA)
 
-- The following are the raw features and their descriptions<br/>
+- The following are the raw features and their descriptions
+
+
 LoanStatNew| Description
 ------------------- |------------
 loan_amnt |The listed amount of the loan applied for by t...
@@ -66,6 +68,8 @@ mort_acc |Number of mortgage accounts.
 pub_rec_bankruptcies |Number of public record bankruptcies
 
 - Missing data in percentage
+
+
 feature |                mis_perc
 -------------|-------------------
 mort_acc    |            9.543469
@@ -127,6 +131,8 @@ int_rate               |-0.082583
 ### Best Model
 - Our Best models for now:
 - **Densely connected Neural Network(DNN)** with Bayesian optimization<br/>
+
+
  |precision |   recall | f1-score  | support
  |----------|----------|-----------|---------
  0   |    0.47  |    0.93  |    0.62  |    3925
@@ -134,6 +140,8 @@ int_rate               |-0.082583
  accuracy   |           |           |  0.89   |  39522
  macro avg   |    0.73   |   0.91    |  0.78   |  39522
 weighted avg    |   0.94   |   0.89     | 0.90   |  39522
+
+
 
 ||  0    |  1  |
 |---|--------|------|
@@ -145,6 +153,8 @@ weighted avg    |   0.94   |   0.89     | 0.90   |  39522
 
 
 - **Densely connected Neural Network(DNN)** with hand tuning Hyperparameters<br/>
+
+
  |precision |   recall | f1-score  | support
  |----------|----------|-----------|---------
  0   |    0.43  |    1.00  |    0.62  |    3364
@@ -152,6 +162,8 @@ weighted avg    |   0.94   |   0.89     | 0.90   |  39522
  accuracy   |           |           |  0.89   |  39522
  macro avg   |    0.72   |   0.94    |  0.77   |  39522
 weighted avg    |   0.95   |   0.89     | 0.91   |  39522
+
+
 
 ||  0    |  1  |
 |---|--------|------|
